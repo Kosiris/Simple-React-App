@@ -16,4 +16,4 @@ const TodoInput = ({ todo, setTodo, addTodo }) => {
     );
 };
 
-export default TodoInput
+export default TodoInput;

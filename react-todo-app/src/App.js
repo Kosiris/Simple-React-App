@@ -21,7 +21,6 @@ const App = () => {
     setTodos(newTodos);
   };
 
-
   return (
     <div className="App">
       <h1>Todo App</h1>

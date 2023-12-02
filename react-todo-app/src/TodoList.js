@@ -3,14 +3,14 @@ const TodoList = ({ list, remove }) => {
         <>
         {list?.length > 0 ? (
             <ul className="todo-list">
-              {todos.map((todo, index) => (
+              {list.map((entry, index) => (
                 <div className="todo">
-                  <li key={index}> {todo} </li>
+                  <li key={index}> {entry} </li>
     
                   <button
                     className="delete-button"
                     onClick={() => {
-                      deleteTodo(todo);
+                      remove(entry);
                     }}
                   >
                     Delete
